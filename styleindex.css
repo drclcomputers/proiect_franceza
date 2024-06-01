@@ -22,7 +22,7 @@ body{
     vertical-align: middle;
     color: aliceblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:16px;
+    font-size:90%;
     a:link, a:visited {
         background-color: white;
         color: black;
@@ -42,10 +42,10 @@ body{
     grid-area: harta;
     text-align: center;
     button{
-        height:30px;
-        width: 30px;
+        height:4vh;
+        width: 4vh;
         border-radius: 20%;
-        font-size:20px;
+        font-size:100%;
         border:2px solid red;
     }
     button:active{
@@ -71,7 +71,7 @@ body{
     align-content: center;
     text-align: center;
     color:white;
-    font-size: 18px;
+    font-size: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     a{
         color: white;
