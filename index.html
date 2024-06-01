@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>La Région Alsace</title>
+    <link rel="stylesheet" href="styleindex.css">
+</head>
+
+<body>
+    <script src="app.js"></script>
+    <div class="container">
+        <div class="navigatie">
+            <nav>
+                <a href="index.html">Home</a> 
+                <a href="./pages/alcatuire.html">View Region</a> 
+                <a href="./pages/personalitati.html">Personnalités</a>
+                <a href="index.html">Galerie Photo</a>   
+                <a href="./pages/about.html">À propos de nous</a>
+            </nav>
+        </div>
+        <div class="harta">
+            <h1>La Région Alsace</h1>
+            <h2>Introduction</h2>
+            <center><div style="width: 100vh; height: auto; text-align: justify; font-size: 18px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                <p>L'Alsace, située dans le nord-est de la France, est une région riche en histoire, culture et paysages pittoresques. Bien que depuis 2016, elle fasse partie de la nouvelle région administrative Grand Est, l'Alsace conserve une identité forte et distincte.</p>
+            </div></center>
+            <h2>Géographie</h2>
+            <div align="center">
+                <text style="font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Zoom: </text>
+                <button type="button" onclick="changeImage('./images/hartaregiune.jpg')">+</button>
+                <button type="button" onclick="changeImage('./images/hartamare.jpg')">-</button>
+            </div>
+            <br>
+            <img id="harta" src="./images/hartamare.jpg">
+            <center><div style="width: 100vh; font-size: 18px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                <p id="inforeg">La Carte de France</p>
+            </div></center> 
+        </div>
+        <footer class="final">
+            <nav>
+                <a href="https://www.instagram.com/den.080909/">Instagram</a> |
+                <a href="https://github.com/drclcomputers">GitHub</a> |
+                <a href="https://www.youtube.com/channel/UCxQvmkpGmX1Yxge2PjuHizQ">Youtube</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>
