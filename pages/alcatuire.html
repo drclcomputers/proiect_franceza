@@ -43,6 +43,19 @@
                     width: 10%;
                     align-self: right;
                 }
+                a:link, a:visited {
+                    background-color: white;
+                    color: black;
+                    border: 2px solid blue;
+                    padding: 10px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                }
+                a:hover, a:active {
+                    background-color: blue;
+                    color: white;
+                }
             }
 
             .final{
@@ -70,7 +83,6 @@
                 <a href="../index.html">Home</a> 
                 <a href="alcatuire.html">Villes</a> 
                 <a href="personalitati.html">Personnalités</a>
-                <a href="../index.html">Galerie Photo</a>   
                 <a href="about.html">À propos de nous</a>
             </nav>
         </div>
@@ -78,25 +90,67 @@
             <h1>Départaments</h1>
             <div style="display: flex;">
                 <div style="text-align: left; width: 60%;">
-                    <p><b>La région Alsace est composée de deux départements :</b></p>
+                    <p style="font-size: 120%;"><b>La région Alsace est composée de deux départements :</b></p>
                     <ul>
                         <li>Le Bas-Rhin (67)</li>
                         <li>Le Haut-Rhin (68)</li>
                     </ul>
-                    <p><b>Le chef-lieu de la région Alsace est Strasbourg, qui est également la préfecture du département du Bas-Rhin et la capitale européenne.</b></p>
+                    <p style="font-size: 120%;"><b>Le chef-lieu de la région Alsace est Strasbourg, qui est également la préfecture du département du Bas-Rhin et la capitale européenne.</b></p>
                 </div>
                 <div>
-                    <img src="../images/administratie.jpg" style="height: 100%; width: 50%;">
+                    <img src="../images/administratie.jpg" style="height: 100%; width: 100%;">
                 </div>
             </div>
             <br>
             <h1>Villes</h1>
+            <div style="text-align: left; a{color:black; text-decoration: none;}">
+                <p style="font-size: 120%;"><b>Les plus deux importants villes dans ce région sont: </b></p>
+                <ul>
+                    <li><a href="./villes/strasbourg.html">Strasbourg</a></li>
+                    <li><a href="./villes/colmar.html">Colmar</a></li>
+                </ul>
+            </div>
             <img src="../images/orase_imp.jpg" alt="map" usemap="#map" style="height: 70%; width: 30%;">
             <map name="map">
                 <area shape="rect" coords="120,160,200,200" alt="Strasbourg" href="pages/../villes/strasbourg.html">
-                <area shape="rect" coords="80,400,150,430" alt="Mulhouse" href="pages/../villes/mulhouse.html">
                 <area shape="rect" coords="80,310,130,340" alt="Colmar" href="pages/../villes/colmar.html">
             </map>
+            <div style="text-align: justify;">
+                <center><h1>Économie</h1></center>
+                <p style="font-size: 120%;"><b>L'économie de la région Alsace est diversifiée et dynamique, reposant sur plusieurs secteurs clés. Voici un aperçu des principaux aspects économiques de la région :</b></p>
+                <ol>
+                    <li>
+                        <b>Industrie :</b>
+                        <ul>
+                            <li>Automobile : L'Alsace est un important centre de production automobile avec des entreprises comme Peugeot et Bugatti.</li>
+                            <li>Mécanique et métallurgie : Ces secteurs sont bien développés avec des entreprises de renom comme De Dietrich et Clemessy.</li>
+                            <li>Agroalimentaire : L'Alsace est célèbre pour ses produits alimentaires, notamment la choucroute, les vins, les bières (comme Kronenbourg), et les eaux minérales (Carola).</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Viticulture :</b>
+                        <ul>
+                            <li>L'Alsace est réputée pour ses vins blancs, notamment les cépages Riesling, Gewurztraminer, et Pinot Gris.</li>
+                            <li>La Route des Vins d'Alsace est une attraction touristique majeure, renforçant l'économie locale par le biais de l'œnotourisme.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Tourisme :</b>
+                        <ul>
+                            <li>L'Alsace attire de nombreux visiteurs grâce à ses charmants villages (comme Colmar et Riquewihr), ses marchés de Noël, et ses sites historiques (Strasbourg avec sa cathédrale et ses institutions européennes).</li>
+                            <li>Le patrimoine naturel, avec les Vosges et le Rhin, offre des opportunités pour le tourisme vert et les activités de plein air.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Technologie et Innovation :</b>
+                        <ul>
+                            <li>La région est un centre d'innovation avec de nombreuses entreprises high-tech et des pôles de compétitivité comme le pôle Fibres-Énergivie et le pôle Véhicule du Futur.</li>
+                            <li>Strasbourg, avec son université et ses institutions de recherche, joue un rôle clé dans le développement technologique et scientifique.</li>
+                        </ul>
+                    </li>
+
+                </ol>
+            </div>
             <br><br><br><br><br><br>
         </div></center>
         <footer class="final">
