@@ -17,6 +17,7 @@ body{
 }
 
 .navigatie{
+    width: auto;
     grid-area: navigatie;
     text-align: center;
     vertical-align: middle;
@@ -40,6 +41,7 @@ body{
 }
 
 .harta{
+    width: auto;
     grid-area: harta;
     text-align: center;
     button{
